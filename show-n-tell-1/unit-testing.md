@@ -40,16 +40,15 @@ Where to look:
 * Shapes the code
 * Readability (communication)
 * Sepearation of modules, parts, etc
-
+* (Team dynamics) Pyramid
 ### Why?
 Why it works? / why this way? Seems magical.
 * Curse of dimensionality
 
-Almost magic: Less cost, faster, ...
-IKEA example:
-Know earlier
-Detachable parts
-Offloading from QA
+* Almost magic: Less cost, faster, ...
+* IKEA example: Know earlier
+* Detachable parts
+* Offloading from QA
 
 ## Personal observations (in my career)
 ### Observations in past companies
