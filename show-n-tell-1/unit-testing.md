@@ -61,14 +61,14 @@ Where to look:
 * The book "Accelerate"
 
 ## Best practices (how)
-* The person who wrote the code should write it
+* The person who wrote the code should write tests
 * As early as possible (A/C)
 * Even before the code (TDD: Shift-left)
 * Unseparable part of writing the code
 * Refactoring
 * Shapes the code
 * Readability (communication)
-* Sepearation of modules, parts, etc
+* Separation of modules, parts, etc
    * Interface
 * (Team dynamics) Pyramid
 
@@ -76,8 +76,12 @@ Pitfalls:
 * too tight conditions (testing more)
 * should be isolated
 * impleemetation details
-* Mutiple-tests
-* far from dev time
+* Multiple-tests (Assertions)
+* if far from dev time
+
+The two schools
+AAA style
+
 ### Why?
 Why it works? / why this way? Seems magical.
 * Curse of dimensionality
@@ -87,12 +91,15 @@ Why it works? / why this way? Seems magical.
 * Detachable parts
 * Offloading from QA
 
+* accumulation of constriants
+
+* "Scientific", "Causality"
 ## Personal observations (in my career)
 ### Observations in past companies
 * Helping avoid crashing
 * Helping in costs
 * Scaling up better practices in software, team work
-### Discussions
+### From discussions with experienced people
 * Spoken to people I know. Checked with people.
 * Videos by
    * Dave Farley (videos and book)
@@ -100,15 +107,16 @@ Why it works? / why this way? Seems magical.
    * Lots of good videos about Unit Tests
    and bad ones
 * Assessment
+<!-- ?? maybe: from estimations? -->
 
-* "Scientific", "Causality"
 
 ## How (with live coding) (technical): part 2
-ROS2 components
+ROS2-level Unit Tests
+* Principle of separating the framework (from logic)
 useful patterns
 CMake structure (2 types)
 
-### Suggestions:
+### Appendix: Some proposed suggestions
 * Separate QA for "software"
 * Technical debt
 * Coverage report
