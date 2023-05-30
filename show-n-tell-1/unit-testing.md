@@ -15,20 +15,37 @@ Large projects growth:
 * Sustainable growth
 
 Verification: Other types versus Unit Tests
-Non-primacy of Quality: Quality if not Primary
+Quality? Non-primacy of Quality: Quality is not Primary
 
 ## How (with live coding) (technical): part 1
 Case 1: Algorithm: Prime numbers
 
+
+Writing code for an algorithm (Prime numbers)
+* Iterative
+* Continuous (CI: small modificaitons)
+<!-- * CI: communication: merge contiually -->
+
 TDD
+* Green-red: refactoring
+* Interface first
+* Separating interface from implementation details
+* decomposing
+
 
 ## History & Context
 
 QA (Quality, QA teams, pre-2000)
 
 * Kent Beck (and consequences)
+   * SUnit
+   * XP
+   * Agile (later)
 * Refactoring
+   * Start imperfect
+   * Pragmatism
 * TDD
+* Some milestones: 2000,2005,2012
 * DORA study
 
 More objective assessment: DORA
@@ -48,6 +65,7 @@ Where to look:
 * Shapes the code
 * Readability (communication)
 * Sepearation of modules, parts, etc
+   * Interface
 * (Team dynamics) Pyramid
 ### Why?
 Why it works? / why this way? Seems magical.
