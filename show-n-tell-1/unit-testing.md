@@ -14,7 +14,8 @@ Large projects growth:
 * scaling up the growth
 * Sustainable growth
 
-Verification versus Unit Tests
+Verification: Other types versus Unit Tests
+Non-primacy of Quality: Quality if not Primary
 
 ## How (with live coding) (technical): part 1
 Case 1: Algorithm: Prime numbers
