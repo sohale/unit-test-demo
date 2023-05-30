@@ -17,20 +17,24 @@ Large projects growth:
 Verification: Other types versus Unit Tests
 Quality? Non-primacy of Quality: Quality is not Primary
 
+Motivation is: Make future changes easier (facilitate)
+
+Change: ☥
 ## How (with live coding) (technical): part 1
 Case 1: Algorithm: Prime numbers
 
 
 Writing code for an algorithm (Prime numbers)
-* Iterative
-* Continuous (CI: small modificaitons)
+* Iterative (invariant)
+* Continuous (CI: small modificaitons .gradual)
 <!-- * CI: communication: merge contiually -->
-
+* Imperfection first: Load balancing in time !
+* Auto-maintainer (also: pivot for change )
 TDD
 * Green-red: refactoring
 * Interface first
 * Separating interface from implementation details
-* decomposing
+* Decomposing (DoF × +): finding the boundaries to modularise
 
 
 ## History & Context
@@ -58,7 +62,7 @@ Where to look:
 
 ## Best practices (how)
 * The person who wrote the code should write it
-* As early as possible
+* As early as possible (A/C)
 * Even before the code (TDD: Shift-left)
 * Unseparable part of writing the code
 * Refactoring
@@ -67,6 +71,13 @@ Where to look:
 * Sepearation of modules, parts, etc
    * Interface
 * (Team dynamics) Pyramid
+
+Pitfalls:
+* too tight conditions (testing more)
+* should be isolated
+* impleemetation details
+* Mutiple-tests
+* far from dev time
 ### Why?
 Why it works? / why this way? Seems magical.
 * Curse of dimensionality
