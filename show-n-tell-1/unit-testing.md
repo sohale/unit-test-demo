@@ -7,6 +7,13 @@ Human nature: Errors are normal
 <!-- give Disciplines to  -->
 <!-- a bit of push? -->
 
+Human nature: Errors are normal
+Humans under stress
+Lump of complexity
+Large projects growth:
+* scaling up the growth
+* Sustainable growth
+
 Verification versus Unit Tests
 
 ## How (with live coding) (technical): part 1
