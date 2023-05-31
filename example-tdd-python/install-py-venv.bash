@@ -82,6 +82,11 @@ pip install jaxlib
 # dev-only:
 pip install autopep8
 
+# built-in: unittest
+pip install pytest
+pip install nose
+# pip install mock # already in python 3.3+
+
 python --version
 
 # Python 3.10.6
